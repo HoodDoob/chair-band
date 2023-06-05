@@ -8,13 +8,6 @@ export default function NewRelease() {
       <Head>
         <title>Korolowo</title>
       </Head>
-
-      <div className={styles.newrelCont}>
-        <h1>Not yet, actually</h1>
-        <h2>
-          <Link href="/">Back to home</Link>
-        </h2>
-      </div>
     </>
   );
 }
