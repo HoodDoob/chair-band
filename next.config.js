@@ -5,7 +5,7 @@ module.exports = nextConfig
 module.exports = {
     reactStrictMode: true,
     images: {
-        domains: ['chair.band', 'i.ytimg.com'],
+        domains: ['chair.band', 'i.ytimg.com', 'chair.band/database'],
     },
     i18n: {
         locales: ["en"],
