@@ -3,10 +3,10 @@ import Head from "next/head";
 import styles from "../styles/newrelease.module.scss";
 import LayoutNewRelease from "../components/layoutNewRelease";
 import Image from "next/image";
-import Image_1 from "../../public/images/korolowo/image_1.webp";
-import Image_2 from "../../public/images/korolowo/image_2.webp";
-import Image_3 from "../../public/images/korolowo/image_3.webp";
-import Image_4 from "../../public/images/korolowo/image_4.webp";
+import Image_1 from "../../public/images/korolowo/Image_1.webp";
+import Image_2 from "../../public/images/korolowo/Image_2.webp";
+import Image_3 from "../../public/images/korolowo/Image_3.webp";
+import Image_4 from "../../public/images/korolowo/Image_4.webp";
 export default function NewRelease() {
   return (
     <>
