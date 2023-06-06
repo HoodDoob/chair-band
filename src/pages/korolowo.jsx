@@ -20,7 +20,11 @@ export default function NewRelease() {
             <a href="https://www.instagram.com/kocham.chair/" target="_blank">
               Pre-save
             </a>
-            <a href="https://www.instagram.com/kocham.chair/" target="_blank">
+            <a
+              className={`${styles.a2}`}
+              href="https://www.instagram.com/kocham.chair/"
+              target="_blank"
+            >
               Teledysk <br></br>(przedpremierowo)
             </a>
           </div>
