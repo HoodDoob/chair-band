@@ -20,6 +20,41 @@
     color: var(--color-white);
   }
 }
+.hero {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  color: white;
+}
+.title {
+  font-family: var(--font-primary);
+  font-weight: var(--medium);
+  font-size: 60px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-align: center;
+    padding-top: 5vh;
+    font-family: var(--font-primary2);
+    font-weight: var(--medium);
+    font-size: 25px;
+    color: white;
+  }
+  .a2 {
+    a {
+      font-family: var(--font-primary3);
+      font-weight: var(--light);
+    }
+  }
+}
+
 .background {
   margin-top: -25px;
   margin-left: -30px;
@@ -33,20 +68,26 @@
 }
 
 .imgContNR {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  height: 85vh;
 
   img {
-    // position: absolute;
-    // bottom: 0;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     height: 100%;
+    max-width: 100%;
     object-fit: cover;
   }
 }
 .navigation {
+  z-index: 2;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -56,5 +97,22 @@
     font-family: var(--font-primary);
     font-weight: var(--medium);
     color: white;
+  }
+}
+@media screen and (min-width: 700px) {
+  .title {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .imgContNR {
+    height: 100vh;
+    img {
+      height: auto;
+      object-fit: contain;
+    }
+  }
+  .title {
+    font-size: 130px;
   }
 }

@@ -14,6 +14,18 @@ export default function NewRelease() {
         <title>Korolowo</title>
       </Head>
       <LayoutNewRelease>
+        <div className={`${styles.hero}`}>
+          <div className={`${styles.title}`}>Korolowo</div>
+          <div className={`${styles.content}`}>
+            <a href="https://www.instagram.com/kocham.chair/" target="_blank">
+              Pre-save
+            </a>
+            <a href="https://www.instagram.com/kocham.chair/" target="_blank">
+              Teledysk <br></br>(przedpremierowo)
+            </a>
+          </div>
+        </div>
+
         <div className={styles.background}>
           <div className={styles.imgContNR}>
             <Image loading="lazy" src={Image_1} alt="Instagram" />
