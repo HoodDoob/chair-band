@@ -1,16 +1,17 @@
 import Image from "next/image";
+import styles from "../styles/newrelease.module.scss";
 import fbIcon from "../../public/icons/icon_FB.svg";
 import igIcon from "../../public/icons/icon_IG.svg";
 import spIcon from "../../public/icons/icon_SP.svg";
 import ttIcon from "../../public/icons/icon_TT.svg";
 // npm install @mailchimp/mailchimp_marketing
 
-export default function Layout(props) {
+export default function LayoutNewRelease(props) {
   return (
     <div className="layout">
       <header>
-        <div className="fixed">
-          <nav>
+        <div>
+          <div className={styles.navigation}>
             <div className="navSocials">
               <a href="https://www.facebook.com/Chair.The.Band" target="_blank">
                 <Image priority src={fbIcon} alt="Facebook" />
@@ -31,12 +32,12 @@ export default function Layout(props) {
                 <Image priority src={ttIcon} alt="Tik Tok" />
               </a>
             </div>
-            <div>Chair</div>
-          </nav>
+            <h2>Chair</h2>
+          </div>
         </div>
       </header>
 
-      <main>{props.children}</main>
+      <div>{props.children}</div>
     </div>
   );
 }
