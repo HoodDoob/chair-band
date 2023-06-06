@@ -62,52 +62,52 @@ export default function NewRelease() {
 
         <div className={styles.background}>
           <div className={styles.imgContNR}>
-            <Image priority="true" src={Image_1} alt="Instagram" />
+            <Image quality="80" priority="true" src={Image_1} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_2} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_2} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_3} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_3} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_4} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_4} alt="Instagram" />
           </div>{" "}
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_5} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_5} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_6} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_6} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_7} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_7} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_8} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_8} alt="Instagram" />
           </div>{" "}
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_9} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_9} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_10} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_10} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_11} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_11} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_12} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_12} alt="Instagram" />
           </div>{" "}
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_13} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_13} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_14} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_14} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_15} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_15} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
-            <Image loading="lazy" src={Image_16} alt="Instagram" />
+            <Image quality="80" loading="lazy" src={Image_16} alt="Instagram" />
           </div>
           {/* <Image loading="lazy" src={Image_2} alt="Instagram" />
           <Image loading="lazy" src={Image_1} alt="Instagram" />
