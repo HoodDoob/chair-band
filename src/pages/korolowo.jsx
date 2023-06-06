@@ -45,7 +45,7 @@ export default function NewRelease() {
             >
               Teledysk <br></br>(przedpremierowo)
             </a>
-            <iframe
+            {/* <iframe
               className={`${styles.iframe}`}
               title="myFrame"
               src="https://open.spotify.com/embed/track/2PBMZJc5DhDFcUOq56Za2Q?utm_source=generator&theme=0"
@@ -56,7 +56,7 @@ export default function NewRelease() {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
               sandbox="allow-scripts allow-same-origin"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
 
