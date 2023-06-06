@@ -1,3 +1,6 @@
+.layout {
+  background-color: black;
+}
 .newrelCont {
   position: absolute;
   width: 100%;
@@ -22,36 +25,55 @@
 }
 .hero {
   position: fixed;
-  top: 45%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2;
-
+  z-index: 20;
   color: white;
+  // overflow-y: hidden;
+  pointer-events: none;
 }
+// .heroWrapper:hover .hero {
+//   overflow-y: scroll;
+// }
+
+// .hero:hover a {
+//   // pointer-events: auto;
+//   overflow-y: scroll;
+// }
 .title {
   font-family: var(--font-primary);
   font-weight: var(--medium);
   font-size: 60px;
+  // overflow-y: scroll;
 }
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  // overflow-y: scroll;
   a {
     text-align: center;
-    padding-top: 5vh;
+    margin-top: 5vh;
     font-family: var(--font-primary2);
     font-weight: var(--medium);
-    font-size: 25px;
+    font-size: 35px;
     color: white;
+    pointer-events: visible;
+    overflow-y: scroll;
   }
+  a:hover {
+    font-size: 37px;
+  }
+
   .a2 {
-    a {
-      font-family: var(--font-primary3);
-      font-weight: var(--light);
-    }
+    font-size: 25px;
+    font-family: var(--font-primary2);
+    font-weight: var(--light);
+  }
+  .a2:hover {
+    font-size: 27px;
   }
 }
 
@@ -78,9 +100,9 @@
 
   img {
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    // top: 0;
+    // left: 50%;
+    // transform: translateX(-50%);
     height: 100%;
     max-width: 100%;
     object-fit: cover;
@@ -99,6 +121,10 @@
     color: white;
   }
 }
+.iframe {
+  // position: fixed;
+  padding-top: 15vh;
+}
 @media screen and (min-width: 700px) {
   .title {
     font-size: 100px;
@@ -108,8 +134,8 @@
   .imgContNR {
     height: 100vh;
     img {
-      height: auto;
-      object-fit: contain;
+      // height: auto;
+      // object-fit: cover;
     }
   }
   .title {
