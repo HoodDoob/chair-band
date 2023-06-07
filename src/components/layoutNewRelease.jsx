@@ -32,7 +32,11 @@ export default function LayoutNewRelease(props) {
                 <Image priority src={ttIcon} alt="Tik Tok" />
               </a>
             </div>
-            <h2>Chair</h2>
+            <h2>
+              <a href="/" target="_blank">
+                Chair
+              </a>
+            </h2>
           </div>
         </div>
       </header>

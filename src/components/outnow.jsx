@@ -22,7 +22,7 @@ export default function Outnow() {
       <p className={styles.dots}>----------------------------------------</p>
       <div>
         <p>15.06.23.</p>
-        <Link href="/korolowo" target="_blank">
+        <Link href="/presave" target="_blank">
           New Single
         </Link>
       </div>
