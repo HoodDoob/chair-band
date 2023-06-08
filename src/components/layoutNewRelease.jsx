@@ -25,10 +25,7 @@ export default function LayoutNewRelease(props) {
               >
                 <Image priority src={spIcon} alt="Spotify" />
               </a>{" "}
-              <a
-                href="https://www.tiktok.com/@chair.band?_t=8cVT9ADObSk&"
-                target="_blank"
-              >
+              <a href="https://www.tiktok.com/@kocham.chair" target="_blank">
                 <Image priority src={ttIcon} alt="Tik Tok" />
               </a>
             </div>

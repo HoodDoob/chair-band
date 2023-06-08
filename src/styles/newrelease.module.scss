@@ -119,6 +119,10 @@
     font-family: var(--font-primary);
     font-weight: var(--medium);
     color: white;
+    a:visited {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 .iframe {
