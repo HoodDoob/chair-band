@@ -90,6 +90,7 @@
 }
 
 .imgContNR {
+  background-color: #2d2d2d;
   position: relative;
   top: 0;
   left: 0;
@@ -119,7 +120,7 @@
     font-family: var(--font-primary);
     font-weight: var(--medium);
     color: white;
-    a:visited {
+    a {
       text-decoration: none;
       color: white;
     }
@@ -137,10 +138,10 @@
 @media screen and (min-width: 1000px) {
   .imgContNR {
     height: 100vh;
-    img {
-      // height: auto;
-      // object-fit: cover;
-    }
+    // img {
+    //   // height: auto;
+    //   // object-fit: cover;
+    // }
   }
   .title {
     font-size: 130px;
