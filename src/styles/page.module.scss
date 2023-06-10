@@ -86,8 +86,11 @@
   grid-template-columns: 6fr 4fr;
   grid-template-rows: auto 1fr;
 }
-.gridGH {
+.gridAB {
   grid-template-columns: 1fr 6fr 4fr 1fr;
+  // #contImg {
+  //   grid-column: 2/3;
+  // }
 }
 // container with absolute position in order to make the animation smooth as koala's brain
 .animationCont {
@@ -151,7 +154,7 @@
       // position: absolute;
       max-width: 100%;
       // max-height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       vertical-align: middle;
     }
   }
@@ -490,7 +493,7 @@
 //   }
 // }
 .ghText {
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 2/4;
   // margin-left: 20%;
 }
@@ -511,7 +514,7 @@
   width: 100%;
   // max-width: 500px;
   margin: auto;
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 2/4;
   label {
     width: 100%;
@@ -549,7 +552,7 @@
 .confirmationCont {
   width: 100%;
   margin: auto;
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 2/4;
 
   display: flex;
@@ -612,6 +615,8 @@
   }
 }
 #contImg {
+  display: flex;
+  align-items: center;
   min-height: 40vw;
   max-height: 400px;
   overflow: hidden;
@@ -678,6 +683,9 @@
 
   // GloryHole
   .gridGH {
+    grid-template-columns: 6fr 4fr;
+  }
+  .gridAB {
     grid-template-columns: 6fr 4fr;
   }
   .ghText {

@@ -35,7 +35,7 @@ export default function Form(props) {
   };
 
   return (
-    <div>
+    <div className={styles.confirmationCont}>
       {confirmation ? (
         <div className={styles.confirmationCont}>
           <h2>
