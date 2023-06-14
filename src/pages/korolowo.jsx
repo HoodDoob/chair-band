@@ -30,20 +30,20 @@ export default function NewRelease() {
         <div className={`${styles.hero}`}>
           <div className={`${styles.title}`}>Korolowo</div>
           <div className={`${styles.content}`}>
-            <a
+            {/* <a
               href="https://adm.ffm.to/ChairKorolowo"
               target="_blank"
               rel="noopener noreferrer"
               className={`${styles.a1}`}
             >
               &rarr; Pre-save &larr;
-            </a>
+            </a> */}
             <a
               className={`${styles.a2}`}
-              href="https://youtu.be/AHdfqDWl3T4"
+              href="https://www.youtube.com/watch?v=ySTCPIbg7so"
               target="_blank"
             >
-              Teledysk <br></br>(przedpremierowo)
+              Teledysk
             </a>
             {/* <iframe
               className={`${styles.iframe}`}
