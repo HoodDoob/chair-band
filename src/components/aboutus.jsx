@@ -6,6 +6,9 @@ import { useEffect, useContext } from "react";
 import babyCura from "../../public/images/babyCura.png";
 import babyHubert from "../../public/images/babyHubert.png";
 
+import aboutus_1 from "../../public/images/aboutus_1.webp";
+import aboutus_2 from "../../public/images/aboutus_2.webp";
+import aboutus_3 from "../../public/images/aboutus_3.webp";
 require("isomorphic-fetch");
 
 // npm install --save isomorphic-fetch
@@ -19,10 +22,10 @@ export default function AboutUs({ images, pageState, setPageState }) {
     }
   }, []);
 
-  console.log(
-    images[0]._embedded["wp:featuredmedia"][0].media_details.sizes.full
-      .source_url
-  );
+  // console.log(
+  //   images[0]._embedded["wp:featuredmedia"][0].media_details.sizes.full
+  //     .source_url
+  // );
 
   return (
     <div className={styles.animationCont}>
@@ -30,8 +33,9 @@ export default function AboutUs({ images, pageState, setPageState }) {
         <div className={styles.imgcont} id={styles.firstimage}>
           <Image
             src={
-              images[2]._embedded["wp:featuredmedia"][0].media_details.sizes
-                .full.source_url
+              aboutus_1
+              // images[2]._embedded["wp:featuredmedia"][0].media_details.sizes
+              //   .full.source_url
             }
             alt=""
             // width={`100`}
@@ -63,8 +67,9 @@ export default function AboutUs({ images, pageState, setPageState }) {
         <div className={styles.imgcont} id={styles.secondimage}>
           <Image
             src={
-              images[1]._embedded["wp:featuredmedia"][0].media_details.sizes
-                .full.source_url
+              aboutus_2
+              // images[1]._embedded["wp:featuredmedia"][0].media_details.sizes
+              //   .full.source_url
             }
             alt=""
             // width={`100`}
@@ -85,8 +90,9 @@ export default function AboutUs({ images, pageState, setPageState }) {
         <div className={styles.imgcont} id={styles.thirdimage1}>
           <Image
             src={
-              images[0]._embedded["wp:featuredmedia"][0].media_details.sizes
-                .full.source_url
+              aboutus_3
+              // images[0]._embedded["wp:featuredmedia"][0].media_details.sizes
+              //   .full.source_url
             }
             alt=""
             layout="fill"
@@ -106,8 +112,9 @@ export default function AboutUs({ images, pageState, setPageState }) {
           <div className={styles.imgcont} id={styles.thirdimage2}>
             <Image
               src={
-                images[0]._embedded["wp:featuredmedia"][0].media_details.sizes
-                  .full.source_url
+                aboutus_3
+                // images[0]._embedded["wp:featuredmedia"][0].media_details.sizes
+                //   .full.source_url
               }
               alt=""
               layout="fill"
