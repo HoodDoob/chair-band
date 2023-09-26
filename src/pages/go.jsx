@@ -9,11 +9,11 @@ import Image_2 from "../../public/images/go/Image2.webp";
 import Image_3 from "../../public/images/go/Image3.webp";
 import Image_4 from "../../public/images/go/Image4.webp";
 import Image_5 from "../../public/images/go/Image5.webp";
-// import Image_6 from "../../public/images/go/Image6.webp";
-// import Image_7 from "../../public/images/go/Image7.webp";
-// import Image_8 from "../../public/images/go/Image8.webp";
-// import Image_9 from "../../public/images/go/Image9.webp";
-// import Image_10 from "../../public/images/go/Image10.webp";
+import Image_6 from "../../public/images/go/Image6.webp";
+import Image_7 from "../../public/images/go/Image7.webp";
+import Image_8 from "../../public/images/go/Image8.webp";
+import Image_9 from "../../public/images/go/Image9.webp";
+import Image_10 from "../../public/images/go/Image10.webp";
 // import Image_11 from "../../public/images/go/Image11.webp";
 // import Image_12 from "../../public/images/go/Image12.webp";
 // import Image_13 from "../../public/images/go/Image13.webp";
@@ -83,7 +83,7 @@ export default function NewRelease() {
           <div className={styles.imgContNR}>
             <Image quality="80" loading="lazy" src={Image_5} alt="Instagram" />
           </div>
-          {/* <div className={styles.imgContNR}>
+          <div className={styles.imgContNR}>
             <Image quality="80" loading="lazy" src={Image_6} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
@@ -98,7 +98,7 @@ export default function NewRelease() {
           <div className={styles.imgContNR}>
             <Image quality="80" loading="lazy" src={Image_10} alt="Instagram" />
           </div>
-          <div className={styles.imgContNR}>
+          {/* <div className={styles.imgContNR}>
             <Image quality="80" loading="lazy" src={Image_11} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
