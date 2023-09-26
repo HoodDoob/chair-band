@@ -34,13 +34,13 @@ export default function Home({ imagedata, videodata }) {
     console.log("burger menu is open " + burgerState);
   }
 
-  useEffect(() => {
-    function getData() {
-      setImages(imagedata);
-      setVideos(videodata);
-    }
-    getData();
-  }, []);
+  // useEffect(() => {
+  //   function getData() {
+  //     setImages(imagedata);
+  //     setVideos(videodata);
+  //   }
+  //   getData();
+  // }, []);
 
   function openVideo(video) {
     setPopupState(true);
@@ -214,23 +214,23 @@ export default function Home({ imagedata, videodata }) {
   );
 }
 
-export async function getStaticProps() {
-  // Get data from api
-  const resImg = await fetch(
-    "https://chair.band/database/wp-json/wp/v2/image?per_page=100&_embed"
-  );
-  const imagedata = await resImg.json();
+// export async function getStaticProps() {
+//   // Get data from api
+//   const resImg = await fetch(
+//     "https://chair.band/database/wp-json/wp/v2/image?per_page=100&_embed"
+//   );
+//   const imagedata = await resImg.json();
 
-  const resVid = await fetch(
-    "https://chair.band/database/wp-json/wp/v2/video?per_page=100&_embed"
-  );
-  const videodata = await resVid.json();
+//   const resVid = await fetch(
+//     "https://chair.band/database/wp-json/wp/v2/video?per_page=100&_embed"
+//   );
+//   const videodata = await resVid.json();
 
-  // Return the data inside props
-  return {
-    props: {
-      imagedata,
-      videodata,
-    },
-  };
-}
+//   // Return the data inside props
+//   return {
+//     props: {
+//       imagedata,
+//       videodata,
+//     },
+//   };
+// }
