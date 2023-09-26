@@ -28,7 +28,7 @@ export default function NewRelease() {
       </Head>
       <LayoutNewRelease>
         <div className={`${styles.hero}`}>
-          <div className={`${styles.title}`}>Korolowo</div>
+          <div className={`${styles.title}`}>go!</div>
           <div className={`${styles.content}`}>
             <a
               href="https://adm.ffm.to/ChairGo"
@@ -38,13 +38,13 @@ export default function NewRelease() {
             >
               &rarr; Pre-save &larr;
             </a>
-            <a
+            {/* <a
               className={`${styles.a2}`}
               href="https://www.youtube.com/watch?v=ySTCPIbg7so"
               target="_blank"
             >
               Teledysk
-            </a>
+            </a> */}
             {/* <a
               className={`${styles.a2}`}
               href="https://www.youtube.com/watch?v=ySTCPIbg7so"
