@@ -83,7 +83,7 @@ export default function NewRelease() {
           <div className={styles.imgContNR}>
             <Image quality="80" loading="lazy" src={Image_5} alt="Instagram" />
           </div>
-          <div className={styles.imgContNR}>
+          {/* <div className={styles.imgContNR}>
             <Image quality="80" loading="lazy" src={Image_6} alt="Instagram" />
           </div>
           <div className={styles.imgContNR}>
@@ -115,7 +115,7 @@ export default function NewRelease() {
           </div>
           <div className={styles.imgContNR}>
             <Image quality="80" loading="lazy" src={Image_16} alt="Instagram" />
-          </div>
+          </div> */}
           {/* <Image loading="lazy" src={Image_2} alt="Instagram" />
           <Image loading="lazy" src={Image_1} alt="Instagram" />
           <Image loading="lazy" src={Image_2} alt="Instagram" /> */}
