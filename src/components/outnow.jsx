@@ -16,13 +16,13 @@ export default function Outnow() {
       <h4>Our new song</h4>
       <p className={styles.dots}>****************************************</p>
       <div>
-        <h3>Korolowo</h3>
+        <h3>go!</h3>
         {/* <h3>(3.23)</h3> */}
       </div>
       <p className={styles.dots}>----------------------------------------</p>
       <div>
-        <p>15.06.23.</p>
-        <Link href="/korolowo" target="_blank">
+        <p>29.09.23</p>
+        <Link href="/go" target="_blank">
           New Single
         </Link>
       </div>
