@@ -4,22 +4,22 @@ import Head from "next/head";
 import styles from "../styles/newrelease.module.scss";
 import LayoutNewRelease from "../components/layoutNewRelease";
 import Image from "next/image";
-import Image_1 from "../../public/images/korolowo/Image1.webp";
-import Image_2 from "../../public/images/korolowo/Image2.webp";
-import Image_3 from "../../public/images/korolowo/Image3.webp";
-import Image_4 from "../../public/images/korolowo/Image4.webp";
-import Image_5 from "../../public/images/korolowo/Image5.webp";
-import Image_6 from "../../public/images/korolowo/Image6.webp";
-import Image_7 from "../../public/images/korolowo/Image7.webp";
-import Image_8 from "../../public/images/korolowo/Image8.webp";
-import Image_9 from "../../public/images/korolowo/Image9.webp";
-import Image_10 from "../../public/images/korolowo/Image10.webp";
-import Image_11 from "../../public/images/korolowo/Image11.webp";
-import Image_12 from "../../public/images/korolowo/Image12.webp";
-import Image_13 from "../../public/images/korolowo/Image13.webp";
-import Image_14 from "../../public/images/korolowo/Image14.webp";
-import Image_15 from "../../public/images/korolowo/Image15.webp";
-import Image_16 from "../../public/images/korolowo/Image16.webp";
+import Image_1 from "../../public/images/go/Image1.webp";
+import Image_2 from "../../public/images/go/Image2.webp";
+import Image_3 from "../../public/images/go/Image3.webp";
+import Image_4 from "../../public/images/go/Image4.webp";
+import Image_5 from "../../public/images/go/Image5.webp";
+// import Image_6 from "../../public/images/go/Image6.webp";
+// import Image_7 from "../../public/images/go/Image7.webp";
+// import Image_8 from "../../public/images/go/Image8.webp";
+// import Image_9 from "../../public/images/go/Image9.webp";
+// import Image_10 from "../../public/images/go/Image10.webp";
+// import Image_11 from "../../public/images/go/Image11.webp";
+// import Image_12 from "../../public/images/go/Image12.webp";
+// import Image_13 from "../../public/images/go/Image13.webp";
+// import Image_14 from "../../public/images/go/Image14.webp";
+// import Image_15 from "../../public/images/go/Image15.webp";
+// import Image_16 from "../../public/images/go/Image16.webp";
 export default function NewRelease() {
   return (
     <>
