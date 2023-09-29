@@ -31,12 +31,20 @@ export default function NewRelease() {
           <div className={`${styles.title}`}>go!</div>
           <div className={`${styles.content}`}>
             <a
+              href="https://youtu.be/KmFXvvhNXqs?si=0gB_6Ef2oEwwnM1v"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.a1}`}
+            >
+              &rarr; Watch it NOW &larr;
+            </a>
+            <a
               href="https://adm.ffm.to/ChairGo"
               target="_blank"
               rel="noopener noreferrer"
               className={`${styles.a1}`}
             >
-              &rarr; Pre-save &larr;
+              &rarr; Stream it NOW &larr;
             </a>
             {/* <a
               className={`${styles.a2}`}
