@@ -31,6 +31,22 @@ export default function NewRelease() {
           <div className={`${styles.title}`}>go!</div>
           <div className={`${styles.content}`}>
             <a
+              href="https://www.instagram.com/ar/261565326852886/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.a1}`}
+            >
+              &rarr; Chair Game (IG) &larr;
+            </a>
+            <a
+              href="https://www.facebook.com/fbcameraeffects/tryit/261565326852886/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${styles.a1}`}
+            >
+              &rarr; Chair Game (FB) &larr;
+            </a>
+            <a
               href="https://youtu.be/KmFXvvhNXqs?si=0gB_6Ef2oEwwnM1v"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,6 +62,7 @@ export default function NewRelease() {
             >
               &rarr; Stream it NOW &larr;
             </a>
+
             {/* <a
               className={`${styles.a2}`}
               href="https://www.youtube.com/watch?v=ySTCPIbg7so"
