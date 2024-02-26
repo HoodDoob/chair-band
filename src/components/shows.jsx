@@ -81,12 +81,12 @@ export default function Shows() {
               <li>
                 <div className={styles.oneShow}>
                   <div className={styles.showDate}>
-                    <h3>14.06</h3>
-                    <p>2023</p>
+                    <h3>21.03</h3>
+                    <p>2024</p>
                   </div>
 
                   <div className={styles.showName}>
-                    <h3>Ephemera</h3>
+                    <h3>Private Gig</h3>
                     <p>Warsaw // PL</p>
                   </div>
                 </div>
@@ -94,26 +94,26 @@ export default function Shows() {
               <li>
                 <div className={styles.oneShow}>
                   <div className={styles.showDate}>
-                    <h3>26.6</h3>
-                    <p>2023</p>
+                    <h3>22.03</h3>
+                    <p>2024</p>
                   </div>
 
                   <div className={styles.showName}>
-                    <h3>Meskie Granie</h3>
-                    <p>Poznan // PL</p>
+                    <h3>Wiosna Twórców</h3>
+                    <p>Supraśl // PL</p>
                   </div>
                 </div>
               </li>
               <li>
                 <div className={styles.oneShow}>
                   <div className={styles.showDate}>
-                    <h3>08.07</h3>
-                    <p>2023</p>
+                    <h3>23.03</h3>
+                    <p>2024</p>
                   </div>
 
                   <div className={styles.showName}>
-                    <h3>Stary Manez</h3>
-                    <p>Gdansk // PL</p>
+                    <h3>6. Dzielnica</h3>
+                    <p>Łódź // PL</p>
                   </div>
                 </div>
               </li>
