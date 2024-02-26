@@ -31,17 +31,19 @@ export default function Contact() {
       </div>
       <div className={styles.contText}>
         <div className={styles.cont1}>
-          <h2>Chair Manager</h2>
+          <h2>Chair Management</h2>
         </div>
         <div className={styles.cont2}>
-          <h2>Asia Babiel</h2>
+          <h2>Alicja Herda</h2>
         </div>
         <div className={styles.cont3}>
-          <a href="mailto: asia@art2.pl?subject=I Love Chair">asia@art2.pl</a>
+          <a href="mailto: herda.alicja@gmail.com?subject=I Love Chair">
+            herda.alicja@gmail.com
+          </a>
         </div>
         <div className={styles.cont4}>
           <a
-            href="https://drive.google.com/drive/folders/1Z6k_ityGdseQrJhDPcVM0xkcfHFKSNMr"
+            href="https://drive.google.com/drive/folders/15t8lfZrdoaF6SE-QmqbRMZrYaTn221kg?usp=share_link"
             target="_blank"
           >
             Click here for our<br></br> press release
@@ -49,7 +51,9 @@ export default function Contact() {
         </div>
 
         <div className={styles.cont5}>
-          <a href="mailto: asia@art2.pl?subject=Chair Booking">Book us now!</a>
+          <a href="mailto: chair.bandstuff@gmail.com?subject=Chair Booking">
+            Book us now!
+          </a>
         </div>
       </div>
       {/* LITTLE MANAGER */}

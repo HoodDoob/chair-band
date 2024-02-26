@@ -117,7 +117,7 @@ export default function Shows() {
                   </div>
                 </div>
               </li>
-              <li>
+              {/* <li>
                 <div className={styles.oneShow}>
                   <div className={styles.showDate}>
                     <h3>21.07</h3>
@@ -129,7 +129,7 @@ export default function Shows() {
                     <p>Myslowice // PL</p>
                   </div>
                 </div>
-              </li>
+              </li> */}
               {/* <li>
               <div className={styles.oneShow}>
                 <div className={styles.showDate}>
