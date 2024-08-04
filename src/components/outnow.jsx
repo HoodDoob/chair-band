@@ -13,17 +13,17 @@ export default function Outnow() {
   }, []);
   return (
     <div className={styles.newrelbox}>
-      <h4>Our new song</h4>
+      <h4>Our newest EP</h4>
       <p className={styles.dots}>****************************************</p>
       <div>
-        <h3>LOVE AD 2</h3>
+        <h3>GENTLE MEN</h3>
         {/* <h3>(3.23)</h3> */}
       </div>
       <p className={styles.dots}>----------------------------------------</p>
       <div>
         <p>out now</p>
         <Link
-          href="https://youtu.be/Fb8GuXZTkOU?si=ZOL7buie2g6FIy9k"
+          href="https://youtu.be/sg-qtqaDe8k?si=E8GCdFmki4i_zGn_"
           target="_blank"
         >
           LISTEN HERE
