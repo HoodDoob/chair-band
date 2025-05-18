@@ -49,7 +49,7 @@ export default function AboutUs({ images, pageState, setPageState }) {
         {/* <Wordpress images={images} /> */}
         <div className={styles.title}>
           <h1>about us</h1>
-          <h2>(written by AI)</h2>
+          {/* <h2>(written by AI)</h2> */}
         </div>
         <div className={styles.text_div} id={styles.firsttext}>
           <p>
@@ -60,8 +60,7 @@ export default function AboutUs({ images, pageState, setPageState }) {
             for our own language. Chair is where tenderness meets aggression,
             punk guitars mix with acoustic grooves. Musically, we’re inspired by
             REM, Talking Heads or Viagra Boys, but memes and the absurdity of
-            everyday life contributes to our style too. We like being
-            unpredictable, angry, moved, reckless and scared. Always honest.
+            everyday life contributes to our style too.
           </p>
         </div>
         <div className={styles.imgcont} id={styles.secondimage}>
@@ -80,12 +79,10 @@ export default function AboutUs({ images, pageState, setPageState }) {
           />
         </div>
         <div className={styles.text_div} id={styles.secondtext}>
-          <p>
-            We like to call our music style "slay punk," although it's hard to
-            put a label on it. What matters most is the emotional depth we
-            infuse into our songs, unapologetically expressing our fears and
-            vulnerabilities.
-          </p>
+          {/* <p>
+            We like being unpredictable, angry, moved, reckless and scared.
+            Always honest.
+          </p> */}
         </div>
         <div className={styles.imgcont} id={styles.thirdimage1}>
           <Image
@@ -133,6 +130,7 @@ export default function AboutUs({ images, pageState, setPageState }) {
             and Trójka. We’ve performed three times on national morning TV, and
             most recently – got 4 YES’s on Must Be The Music.
           </p>
+          <br></br>
           <p>
             We’re not always a band that’s easy to "get." But we’re hungry – for
             space, for risk, for the chance to show what we’re capable of. And

@@ -79,20 +79,10 @@ export default function Shows() {
           {showState == 1 ? (
             <ul>
               <li>
-                <div className={styles.oneShow}>
-                  <div className={styles.showDate}>
-                    <h3>21.03</h3>
-                    <p>2024</p>
-                  </div>
-
-                  <div className={styles.showName}>
-                    <h3>Private Gig</h3>
-                    <p>Warsaw // PL</p>
-                  </div>
-                </div>
+                <h1>TBH</h1>
               </li>
               <li>
-                <div className={styles.oneShow}>
+                {/* <div className={styles.oneShow}>
                   <div className={styles.showDate}>
                     <h3>22.03</h3>
                     <p>2024</p>
@@ -102,10 +92,10 @@ export default function Shows() {
                     <h3>Wiosna Twórców</h3>
                     <p>Supraśl // PL</p>
                   </div>
-                </div>
+                </div> */}
               </li>
               <li>
-                <div className={styles.oneShow}>
+                {/* <div className={styles.oneShow}>
                   <div className={styles.showDate}>
                     <h3>23.03</h3>
                     <p>2024</p>
@@ -115,39 +105,14 @@ export default function Shows() {
                     <h3>6. Dzielnica</h3>
                     <p>Łódź // PL</p>
                   </div>
-                </div>
+                </div> */}
               </li>
-              {/* <li>
-                <div className={styles.oneShow}>
-                  <div className={styles.showDate}>
-                    <h3>21.07</h3>
-                    <p>2023</p>
-                  </div>
-
-                  <div className={styles.showName}>
-                    <h3>AlterFest</h3>
-                    <p>Myslowice // PL</p>
-                  </div>
-                </div>
-              </li> */}
-              {/* <li>
-              <div className={styles.oneShow}>
-                <div className={styles.showDate}>
-                  <h3>20.05</h3>
-                  <p>2023</p>
-                </div>
-
-                <div className={styles.showName}>
-                  <h3>an upcoming show</h3>
-                  <p>location</p>
-                </div>
-              </div>
-            </li> */}
             </ul>
           ) : (
             <ul>
               <li>
-                <div className={styles.oneShow}>
+                <h1>TBH</h1>
+                {/* <div className={styles.oneShow}>
                   <div className={styles.showDate}>
                     <h3>27.05</h3>
                     <p>2023</p>
@@ -157,9 +122,9 @@ export default function Shows() {
                     <h3>Radio Zak</h3>
                     <p>Lodz // PL</p>
                   </div>
-                </div>
+                </div> */}
               </li>
-              <li>
+              {/* <li>
                 <div className={styles.oneShow}>
                   <div className={styles.showDate}>
                     <h3>30.04</h3>
@@ -171,8 +136,8 @@ export default function Shows() {
                     <p>Poznan // PL</p>
                   </div>
                 </div>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <div className={styles.oneShow}>
                   <div className={styles.showDate}>
                     <h3>29.04</h3>
@@ -184,33 +149,7 @@ export default function Shows() {
                     <p>Wroclaw // PL</p>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div className={styles.oneShow}>
-                  <div className={styles.showDate}>
-                    <h3>28.04</h3>
-                    <p>2023</p>
-                  </div>
-
-                  <div className={styles.showName}>
-                    <h3>Chmury</h3>
-                    <p>Warsaw // PL</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className={styles.oneShow}>
-                  <div className={styles.showDate}>
-                    <h3>16.04</h3>
-                    <p>2023</p>
-                  </div>
-
-                  <div className={styles.showName}>
-                    <h3>Stodola</h3>
-                    <p>Warsaw // PL</p>
-                  </div>
-                </div>
-              </li>
+              </li> */}
             </ul>
           )}
         </div>

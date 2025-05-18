@@ -234,7 +234,7 @@ export default function Layout(props) {
                             </li>
                             <li onClick={() => props.changePage(3)}>shows</li>
                             <li onClick={() => props.changePage(4)}>contact</li>
-                            <li onClick={() => props.changePage(5)}>ChairTV</li>
+                            {/* <li onClick={() => props.changePage(5)}>ChairTV</li>
                             <li onClick={() => props.changePage(6)}>
                               GloryHole®
                             </li>
@@ -242,7 +242,7 @@ export default function Layout(props) {
                               <Link href="/ChairGame" target="_blank">
                                 ChairGame
                               </Link>
-                            </li>
+                            </li> */}
                             <li>
                               <a
                                 href="https://art2musicshop.pl/pl/p/Chair-Po-Co-Muzyka-CD/239"
@@ -252,7 +252,7 @@ export default function Layout(props) {
                               </a>
                             </li>
                             <li>
-                              <a href="mailto: asia@art2.pl?subject=Chair Booking">
+                              <a href="mailto: chair.bandstuff@gmail.com?subject=Chair Booking">
                                 BOOK US!
                               </a>
                             </li>
@@ -312,9 +312,20 @@ export default function Layout(props) {
             className={styles.widget}
           >
             {/* Spotify Widget */}
-            <iframe
+            {/* <iframe
               title="myFrame"
               src="https://open.spotify.com/embed/track/3DbNbqXt0IogTMuK7oWzQd?utm_source=generator"
+              width="100%"
+              height="80px"
+              frameBorder="0"
+              allowFullScreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+              sandbox="allow-scripts allow-same-origin"
+            ></iframe> */}
+            <iframe
+              title="myFrame"
+              src="https://open.spotify.com/embed/track/7krlB6Pf5yOLyump93RGGL?utm_source=generator"
               width="100%"
               height="80px"
               frameBorder="0"
