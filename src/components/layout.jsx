@@ -156,7 +156,7 @@ export default function Layout(props) {
                         >
                           contact
                         </li>
-                        <li
+                        {/* <li
                           onClick={() => props.changePage(5)}
                           className={
                             props.pageState == 5 ||
@@ -168,18 +168,18 @@ export default function Layout(props) {
                           }
                         >
                           ChairTV
-                        </li>
-                        <li
+                        </li> */}
+                        {/* <li
                           onClick={() => props.changePage(6)}
                           className={props.pageState == 6 ? "weAreHere" : ""}
                         >
                           GloryHole®
-                        </li>
-                        <li>
+                        </li> */}
+                        {/* <li>
                           <Link href="/ChairGame" target="_blank">
                             ChairGame
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
                           <a
                             href="https://art2musicshop.pl/pl/p/Chair-Po-Co-Muzyka-CD/239"

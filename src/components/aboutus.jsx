@@ -53,15 +53,15 @@ export default function AboutUs({ images, pageState, setPageState }) {
         </div>
         <div className={styles.text_div} id={styles.firsttext}>
           <p>
-            Chair is more than just a band; we're an international duo of
-            multimedia artists - Cura and Hubert Kurkiewicz. Our passion lies in
-            capturing the essence of everyday life with a twist of humor that
-            keeps things extraordinary. We create music that demands attention
-            and resonates with genuine emotions. From the moment Chair was
-            formed, we've embraced the visual aspect of our work, leveraging
-            social media and showcasing our art in multiple galleries. We love
-            collaborating with photographers, musicians, and artists of all
-            kinds, so don't hesitate to reach out if you'd like to join forces.
+            It all began with an online conversation about chairs. Absurd,
+            funny, and unexpectedly full of understanding. That’s how Chair
+            started – a musical duo that, from the beginning, aimed to be more
+            than just a band. It was a shared exploration of labels and a search
+            for our own language. Chair is where tenderness meets aggression,
+            punk guitars mix with acoustic grooves. Musically, we’re inspired by
+            REM, Talking Heads or Viagra Boys, but memes and the absurdity of
+            everyday life contributes to our style too. We like being
+            unpredictable, angry, moved, reckless and scared. Always honest.
           </p>
         </div>
         <div className={styles.imgcont} id={styles.secondimage}>
@@ -124,18 +124,19 @@ export default function AboutUs({ images, pageState, setPageState }) {
         </div>
         <div className={styles.text_div} id={styles.thirdtext}>
           <p>
-            In June 2022, just a year after our band's formation, we released
-            our debut EP, "Po Co Muzyka" ("Why bother with music" in English).
-            Despite its absurdity, the mini-album received a very positive
-            response and quickly became the album of the week on several Polish
-            radio stations. This recognition propelled us into the spotlight,
-            earning us coveted spots at renowned festivals in Poland, including
-            Off Festival, Meskie Granie, Soundrive, and Great September.
+            Over the past three years, we’ve released two EPs and played nearly
+            a hundred shows – from OFF Festival and Męskie Granie to art
+            galleries, restaurants, and abandoned factories. Our stage
+            experience ranges from supporting sold-out shows at Stodoła to
+            playing for a handful of friends in a basement in Poznań. Our EPs
+            were named Album of the Week on stations like Radio 357, Czwórka,
+            and Trójka. We’ve performed three times on national morning TV, and
+            most recently – got 4 YES’s on Must Be The Music.
           </p>
           <p>
-            Chair is an adventure in music and art - a captivating journey that
-            defies expectations. Join us as we continue to push the boundaries
-            of creativity and share our passion for authentic expression.
+            We’re not always a band that’s easy to "get." But we’re hungry – for
+            space, for risk, for the chance to show what we’re capable of. And
+            that is what we’re all about.
           </p>
           <div className={styles.imgcont2}>
             <ChairModeButton pageState={pageState} setPageState={setPageState}>
